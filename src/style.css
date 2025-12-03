@@ -1,0 +1,64 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background:linear-gradient(135deg, #ede109, #764ba2, #6b8dd6);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background: #fcfff3;
+  padding: 50px;
+}
+
+
+h1{font-family:'Product Sans','Segoe UI',Roboto,Arial,sans-serif;font-size:3rem;font-weight:500;letter-spacing:-0.02em;color:#6b8dd6 ;}
+
+
+
+
+input {
+  padding: 15px;
+  border: none;
+  outline: none;
+  background: #f5f9eb;
+  width: 300px;
+  margin-right: 10px;
+}
+
+button {
+  border-radius: 100px;
+  background: #6b8dd6;
+  padding: 5px;
+  outline: none;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.todos-list {
+  margin-top: 3rem;
+}
+
+.todo {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f5f9eb;
+  padding: 7px 20px;
+  margin: 10px;
+  font-family: sans-serif;
+}
+
+.close {
+  padding: 5px 10px;
+  cursor: pointer;
+}
